@@ -1,0 +1,7 @@
+<launch>
+  
+  <include file="$(find Sumaia_robot)/launch/MAZE.launch">
+    <arg name="MAZE" value="$(find Sumaia_robot)/worlds/MAZE.world"/>
+
+  </include>
+</launch>
